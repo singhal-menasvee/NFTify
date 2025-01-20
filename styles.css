@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin-top: 70px;
+  }
+  
+  .hero {
+    background: linear-gradient(120deg, #ff007f, #590fb7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #ff007f;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.1);
+    background-color: #ff007f;
+    color: #fff;
+  }
+  
+  .gallery {
+    padding: 50px;
+    background-color: #222;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    color: #ff007f;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .nft-card {
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .nft-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .nft-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .nft-details {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .nft-details h3 {
+    color: #ff007f;
+    margin-bottom: 10px;
+  }
+  
+  .nft-details p {
+    color: #bbb;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px 50px;
+    height: 70px;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ff007f;
+  }
+
+  .navbar .line {
+    height: 40px;
+    width: 2px;
+    background-color: #fff;
+    margin: 0 20px;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ff007f;
+  }
+
+  .search-bar {
+    width: 250px;
+    margin-right: 20px;
+  }
+
+  .login-button {
+    background-color: #ff007f;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+
+  .login-button:hover {
+    background-color: white;
+    color: #ff007f;
+  }
+
+  .navbar .fa-user-circle, .navbar .fa-shopping-cart {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20px;
+  }
+
+  /* Sub-Navbar */
+  .sub-navbar {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+  }
+
+  .sub-navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+  }
+
+  .sub-navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+
+  .sub-navbar ul li a:hover {
+    color: #ff007f;
+  }
+  /* Optional: Smooth transition for better user experience */
+#gallerySection {
+  transition: opacity 0.5s ease-in-out;
+}
+.hidden {
+  display: none;
+  opacity: 0;
+}
+.visible {
+  display: block;
+  opacity: 1;
+}
+
+  
